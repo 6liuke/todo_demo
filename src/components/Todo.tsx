@@ -83,7 +83,7 @@ function TodoList() {
       </div>
       <DatePicker
         onChange={(date) => setSelectedDate(date)}
-        placeholder="选择日期筛选"
+        value={selectedDate}
         style={{ marginBottom: '1rem' }}
       />
       <form onSubmit={handleAddTodo} className="todo-form">
