@@ -74,9 +74,7 @@ function TodoList() {
     <div className="app-container">
       <h1>Todo 列表</h1>
       <div style={{ marginBottom: '1rem' }}>
-        <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#333' }}>
-          {selectedDate?.format('YYYY-MM-DD')}
-        </div>
+        
         <div style={{ marginTop: '0.5rem', color: '#666', fontSize: '14px' }}>
           当前日期：{selectedDate?.format('YYYY年MM月DD日')}
         </div>
